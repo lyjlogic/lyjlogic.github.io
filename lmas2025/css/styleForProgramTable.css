@@ -4,9 +4,9 @@
             background-color: #05386b;
             color: white;
             padding: 15px 20px;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: bold;
-            border-bottom: 2px solid #1a6bc4;
+            border-bottom: 2px solid #05386b;
         }
         
         .schedule-table {
@@ -79,3 +79,4 @@
             .schedule-table td {
                 padding: 8px 10px;
             }
+        }
