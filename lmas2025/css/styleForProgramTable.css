@@ -1,0 +1,81 @@
+
+        
+        .date-header {
+            background-color: #05386b;
+            color: white;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            border-bottom: 2px solid #1a6bc4;
+        }
+        
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        
+        .schedule-table th {
+            background-color: #e9f2fb;
+            padding: 12px 15px;
+            text-align: center;
+            border: 1px solid #d0e3f8;
+            font-weight: bold;
+        }
+        
+        .schedule-table td {
+            padding: 12px 15px;
+            border: 1px solid #d0e3f8;
+            vertical-align: top;
+        }
+        
+        .time-slot {
+            font-weight: bold;
+            color: #1a6bc4;
+        }
+        
+        .session-break {
+            background-color: #f0f7ff;
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            padding: 10px;
+        }
+        
+        .speaker {
+            font-weight: bold;
+            color: #0d4d96;
+        }
+        
+        .affiliation {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .topic {
+            margin-top: 5px;
+        }
+        
+        .session-header {
+            background-color: #f0f7ff;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .schedule-table {
+                font-size: 14px;
+            }
+            
+            .schedule-table th, 
+            .schedule-table td {
+                padding: 8px 10px;
+            }
